@@ -1,0 +1,276 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 36px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin-top: -15px;
+    font-size: 18px;
+}
+body {
+    background-color: #11151c;
+}
+li, a{
+    color: #edf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8%;
+    padding-top: 30px;
+    background-image: linear-gradient(to bottom, rgba(0, 2, 23, 0.797), rgba(0, 0, 0, 0));
+    padding-bottom: 20px;
+}
+#navbar {
+    list-style: none;
+}
+#navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+#navbar li a{
+    transition: all 0.3s ease 0s;
+}
+#navbar li a:hover{
+    color: #737373;
+}
+#introbackground {
+    background-image: linear-gradient(to bottom right, rgb(5, 0, 27), rgb(255, 255, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#introcontent {
+    height: 650px;
+    padding-top: 180px;
+    padding-left: 100px;
+}
+#introcontent h1{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(100) forwards;
+}
+@keyframes typing{
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+#img1 {
+    width: 500px;
+    float: right;
+    margin-top: -280px;
+    margin-right: 30px;
+    animation-name: grow;
+    animation-duration: 1s;
+}
+#img2 {
+    width: 400px;
+    float: right;
+    margin-top: -470px;
+    margin-right: 70px;
+}
+@keyframes grow {
+    0% {
+        width: 450px;
+    }
+    100% {
+        width: 500px;
+    }
+}
+button {
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 0px;
+    width: 150px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+button:hover {
+    transition-duration: 0.2s;
+    background-color: rgb(141, 141, 141);
+    color: black;
+    border: 0px;
+    width: 150px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about {
+    height: 400px;
+    width: 60%;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 170px;
+}
+#reflection {
+    height: 400px;
+    width: 60%;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: left;
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 170px;
+}
+
+#footer {
+    height: 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+    text-align: center;
+    padding-top: 20px;
+}
+#options {
+    background-image: linear-gradient(to bottom, #000000, rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 690px;
+    padding: 30px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#img3 {
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+#img3:hover {
+    filter: grayscale(1);
+    transform: scale(1.05);
+}
+#fiveC {
+    height: 90px;
+    background-color: #000000;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -1px;
+    padding-top: 5px;
+    margin-bottom: -40px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#introblockchurch {
+    background-image: linear-gradient(to top, rgb(255, 234, 0), rgb(255, 157, 0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#introblockchurch h1{
+    font-size: 64px;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+#introblockchurch img{
+    width: 700px;
+    padding-left: 580px;
+    margin-top: -270px;
+}
+#introblockculture {
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(71, 0, 0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#introblockculture h1{
+    font-size: 64px;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+#introblockculture img{
+    width: 700px;
+    padding-left: 580px;
+    margin-top: -270px;
+}
+#introblockclassroom {
+    background-image: linear-gradient(to bottom right, rgb(0, 231, 239), rgb(0, 5, 158));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#introblockclassroom h1{
+    font-size: 64px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+#introblockclassroom img{
+    width: 700px;
+    padding-left: 580px;
+    margin-top: -270px;
+}
+#introblockcommunity {
+    background-image: linear-gradient(to top right, rgb(0, 255, 4), rgb(221, 255, 0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#introblockcommunity h1{
+    font-size: 64px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+#introblockcommunity img{
+    width: 700px;
+    padding-left: 580px;
+    margin-top: -270px;
+}
+#introblockcourt {
+    background-image: linear-gradient(to top left, rgb(255, 0, 212), rgb(255, 0, 60));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#introblockcourt h1{
+    font-size: 64px;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+#introblockcourt img{
+    width: 700px;
+    padding-left: 580px;
+    margin-top: -270px;
+}
